@@ -171,6 +171,9 @@ constraints = [
 package = true
 default-groups = "all"
 
+[tool.uv.sources]
+docling-ibm-models = { git = "https://github.com/rmenziejr/docling-ibm-models.git" }
+
 [tool.setuptools.packages.find]
 include = ["docling*"]
 
